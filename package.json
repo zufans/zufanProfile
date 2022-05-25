@@ -13,12 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "preDeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "git": "sh ./gitRip.sh"
+    "git": "sh ./gitRip.sh",
+    "gitPages": "sh ./setUpGitHubPages.sh"
+
   },
   "eslintConfig": {
     "extends": [
