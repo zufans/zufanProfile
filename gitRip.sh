@@ -1,4 +1,4 @@
-echo "Comment Message"
+echo "Comment Message ?"
 read MESSAGE
 git add .
 git status
